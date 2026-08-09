@@ -135,3 +135,112 @@ body {
   color: #1a1a1a;
   margin-top: 0;
 }
+
+.page h3 {
+  color: #0b5d3b;
+}
+
+.quote-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.quote-table th,
+.quote-table td {
+  text-align: left;
+  padding: 0.6rem;
+  border-bottom: 1px solid #eee;
+}
+
+.quote-table a {
+  color: #0b5d3b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.row-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.row-actions button {
+  background: none;
+  border: 1px solid #a12622;
+  color: #a12622;
+  border-radius: 4px;
+  padding: 0.25rem 0.6rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.detail-actions a {
+  color: #0b5d3b;
+  font-weight: 600;
+}
+
+.detail-actions button {
+  background: #a12622;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.detail-meta {
+  color: #555;
+  margin-top: -0.5rem;
+}
+
+.breakdown-section {
+  margin-top: 1.5rem;
+}
+
+.breakdown-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.breakdown-table td {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.breakdown-table td:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.breakdown-table .total-row td {
+  font-weight: 700;
+  color: #0b5d3b;
+  font-size: 1.05rem;
+}
+
+.lhc-statement {
+  font-style: italic;
+  background: #eef7f1;
+  padding: 0.75rem;
+  border-radius: 6px;
+}
+
+.applicant-list {
+  padding-left: 1.2rem;
+}
+
+.applicant-list li {
+  margin-bottom: 0.4rem;
+}
